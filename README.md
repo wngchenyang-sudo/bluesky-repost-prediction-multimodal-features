@@ -6,7 +6,7 @@ features provide additional information for Bluesky repost prediction.
 ## Structure
 
 ```text
-data/       Local input data used by the analyses (not uploaded)
+data/       Local input data used by the analyses (not uploaded because the files are large)
 scripts/    Feature preparation, experiments, and analyses
 ```
 
@@ -15,9 +15,10 @@ scripts/    Feature preparation, experiments, and analyses
 The `data/` folder is intentionally excluded from GitHub. It remains in the
 local project and is needed when running the scripts:
 
-- `data/jonas_original/` contains the Jonas hybrid 1:5 analytical dataset.
+- `data/jonas_original/` contains the Jonas hybrid 1:5 analytical dataset. The
+   original data from Jonas should be obtained from its original publication source.
 - `data/study_generated/` contains this study's feature tables:
-  39 non-semantic image features, post-level CLIP512 embeddings, two additional
+  37 non-semantic image features, post-level CLIP512 embeddings, two additional
   image features, and recognised OCR text used to construct the final OCR
   cross-content features at runtime.
 
