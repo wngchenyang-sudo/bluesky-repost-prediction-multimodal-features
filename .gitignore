@@ -1,0 +1,14 @@
+# Local input data: obtain separately; do not upload to GitHub.
+data/
+
+# Locally generated experiment outputs and Python caches.
+reproduction_*/
+results/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local editor and operating-system files.
+.vscode/
+.DS_Store
+Thumbs.db
